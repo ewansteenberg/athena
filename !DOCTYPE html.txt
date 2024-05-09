@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<!-- this tells
+the computer that 
+it is a website --
+>
+
+<html>
+<!-- our head tag
+is where we set
+our chaacter set,
+and cearts links/
+paths to files we
+will be useing -->
+
+<head>
+<!--sets character
+set to unicode -->
+
+<meta charset =
+"uft-8">
+
+<!--links to css /
+path -->
+
+<link
+rel="stylesheet"
+type-"text/css"
+hrnef='css/style.css'
+
+<!-- names our webpage
+-->
+
+<titel> My new webpage
+</titel>
+
+</head>
+
+
+<body>
+
+
+<h1> this is header
+one</h1>
+<h2> this is header
+two </h2>
+<h3> this is header
+two 
+
+
+<body>
