@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Athena</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <h1 id="Athena">ATHENA</h1>
+        </div>
+        <ul>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="band.html">Band</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="Home.html">Home</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <video width="630" height="300" controls>
+        <source src="Music.MOV" type="video/mp4">
+        <source src="Music.MOV" type="video/webm">
+        Your browser does not support the video tag.
+      </video>
+    
+      <p>Ewan Steenberg is a guitarist and one of the two founders.</p>
+      <p>Leo is the main guitarist and the other founder.</p>
+      <p>Theo is the bassist, and he is exceptionally talented.</p>
+      <p>Luke W is the drummer and is known for his goofy personality.</p>
+      <p>Ladies, Luke is single. Add him on Instagram: @2klukez and Snapchat: @idklukeee</p>
+      <p>Check out this video of one of our recent preformances below:</p>
+    </main>
+    <footer>
+      This site was made by ATHENA's manager
+    </footer>
+  </body>
+</html>
