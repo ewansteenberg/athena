@@ -1,39 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Meta tags for character encoding and responsive design -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Page title -->
     <title>Athena</title>
+    
+    <!-- Link to external CSS file -->
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <!-- Header section containing the navigation -->
     <header>
       <nav>
+        <!-- Logo -->
         <div class="logo">
           <h1 id="Athena">ATHENA</h1>
         </div>
+        <!-- Navigation menu -->
         <ul>
           <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="band.html">Band</a></li>
           <li><a href="contact.html">Contact</a></li>
           <li><a href="Home.html">Home</a></li>
         </ul>
       </nav>
     </header>
+
+    <!-- Inline CSS for centering main content and responsive video -->
+    <style>
+      main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+    
+      video {
+        max-width: 100%;
+        height: auto;
+      }
+    </style>
+    
+    <!-- Main content section -->
     <main>
-      <video width="630" height="300" controls>
+      <!-- Video player -->
+      <video width="180" height="10" controls>
         <source src="Music.MOV" type="video/mp4">
         <source src="Music.MOV" type="video/webm">
         Your browser does not support the video tag.
       </video>
     
+      <!-- Band member descriptions -->
       <p>Ewan Steenberg is a guitarist and one of the two founders.</p>
       <p>Leo is the main guitarist and the other founder.</p>
       <p>Theo is the bassist, and he is exceptionally talented.</p>
       <p>Luke W is the drummer and is known for his goofy personality.</p>
       <p>Ladies, Luke is single. Add him on Instagram: @2klukez and Snapchat: @idklukeee</p>
-      <p>Check out this video of one of our recent preformances below:</p>
+      <p>Check out this video of one of our recent performances below!</p>
     </main>
+
+    <!-- Footer section -->
     <footer>
       This site was made by ATHENA's manager
     </footer>
