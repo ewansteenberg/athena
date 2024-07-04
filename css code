@@ -77,6 +77,6 @@ body {
       }
       video{
         position: fixed;
-        left: 510px; /* Adjust the value to change the distance from the right edge */
+        left: 540px; /* Adjust the value to change the distance from the right edge */
         top: 230px; /* Adjust the value to change the distance from the top edge */
     }
